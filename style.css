@@ -411,10 +411,13 @@ h2 {
 }
 
 .badge-link {
-  color: #00fff7;
   text-decoration: none;
-  font-weight: bold;
-  font-size: 18px;
+  color: #00ffcc;
+  font-size: 1.2rem;
+  word-wrap: break-word; /* Ensures long text doesn't overflow */
+  display: inline-block;
+  text-align: center;
+  margin-top: 10px;
 }
 
 .badge-link:hover {
@@ -432,6 +435,13 @@ h2 {
   margin-top: 10px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 255, 247, 0.5);
+}
+
+.email-text { 
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
 }
 
 /* Responsive for small devices */
